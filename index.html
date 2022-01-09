@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style.css">
+        <script type="text/javascript" src="Script.js"></script>
+        <title>Cadastro de Alunos</title>
+    </head>
+    <body>
+        <h1 class="Nav">Sistema de Cadastro</h1>
+        <div class="EstiloInputs">
+            <input type = "name" id="Nome" placeholder = "Nome">
+            <input type = "email" id="Email" placeholder = "E-Mail"> 
+            <input type = "date" id="DdN" placeholder = "Data de nascimento"> 
+            <input type = "number" id="Nota" placeholder = "Nota">
+            <input type="submit" id="Cadastrar" value="Cadastrar" onclick= "return Adicionar()" /> 
+        </div>
+        <!--MEIUCA DO BGL AQUI-->
+        <table id="Cadastrado">
+            <td id="TabelaDeCadastro">
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Data de nascimento</th>
+                <th>Nota</th>
+            </td>
+        </table>
+        
+    </body>
+</html>
